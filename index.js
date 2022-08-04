@@ -4,7 +4,7 @@ let app = express()
 let router = express.Router()
 
 router.get('/', function(req, res, next){
-    res.sendFile(__dirname + '/views/index.html')
+    res.sendFile(__dirname + '/index.html')
 })
 
 

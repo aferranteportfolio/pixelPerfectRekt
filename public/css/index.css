@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto Mono !important;
+
+}
+
+.landingPageHeader {
+    position: relative;
+    color: var(--color);
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.siteHeadContentInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.50em 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.site-logo {
+    width: 110px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.headMainList {
+    display: flex;
+}
+
+a {
+    text-decoration: none
+}
+
+.navItem {
+    font-size: 16px;
+    margin: 0 4px;
+}
+
+.langPickerSelected{
+    padding-left: 4px;
+    justify-content: center;
+}
+
+.langPickerArrow {
+    font-size: 10px;
+    margin: 0 4px;
+}
+
+.langOptions {
+    display: none;
+
+
+}
+
+.langPicker:hover {
+    cursor: pointer;
+}
+
+.langPicker:hover .langOptions {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    margin: 0 4px;
+}
+
+.landingPageHeader::after {
+  content: "";
+  display: block;
+  clear: both;
+}
