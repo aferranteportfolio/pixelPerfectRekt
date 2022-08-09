@@ -1,14 +1,19 @@
+* {}
+
 body {
     font-family: Roboto Mono !important;
-
+    font: 400 14px/18px;
+    margin: 0 0
 }
 
 .landingPageHeader {
     position: relative;
     color: var(--color);
-    max-width: 1260px;
+    max-width: 1253px;
     margin: 0 auto;
     padding: 0 15px;
+    justify-self: center;
+    
 }
 
 
@@ -19,6 +24,7 @@ body {
     padding: 1.50em 0;
     font-weight: 600;
     font-size: 16px;
+    border-bottom: 2px solid black;
 }
 
 .site-logo {
@@ -35,7 +41,7 @@ nav {
     display: flex;
 }
 
-a {
+nav a {
     text-decoration: none
 }
 
@@ -44,7 +50,7 @@ a {
     margin: 0 4px;
 }
 
-.langPickerSelected{
+.langPickerSelected {
     padding-left: 4px;
     justify-content: center;
 }
@@ -72,8 +78,74 @@ a {
     margin: 0 4px;
 }
 
-.landingPageHeader::after {
-  content: "";
-  display: block;
-  clear: both;
+.grid {
+    position: relative;
+    color: var(--color);
+    max-width: 1253px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-self: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+}
+
+article {
+    position: relative;
+    margin: 40px auto;
+    hyphens: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.post{
+    margin-bottom: 0;
+    letter-spacing: -.4px;
+}
+
+.content{
+    max-width: 1260px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h5 a{
+    font: 700 33px/42px Roboto Mono;
+    letter-spacing: -.02em;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.post-title {
+    margin: 0 0 10px;
+}
+
+.post-meta{
+    font-family: Roboto Mono;
+    font-size: 1.3rem;
+   
+}
+
+.post-meta{
+    font: 700 14px/20px Roboto Mono;
+}
+
+.preview-paragraph{
+    font: 400 14px/20px Roboto Mono;
+    font-size: .9em;
+    text-align: left;
+    letter-spacing: -1px;
+    hyphens: auto;
+    text-align: justify
+}
+
+.urlto-post {
+    display: grid;
+    justify-content: space-between;
+    text-decoration: overline underline;
+    text-transform:uppercase ;
+    letter-spacing: .2rem;
+    font: 400 14px/20px Roboto Mono;
+    font-weight: bolder;
 }
