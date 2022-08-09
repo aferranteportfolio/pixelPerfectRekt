@@ -149,3 +149,128 @@ h5 a{
     font: 400 14px/20px Roboto Mono;
     font-weight: bolder;
 }
+.navigation{
+    font-size: 1rem;
+    justify-content: center;
+    position: relative;
+    margin: 4rem;
+    border-bottom: 5px;
+    text-align: center;
+
+}
+
+.page-number{
+    display: inline-block;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    padding: 7px;
+}
+
+
+.older-post{
+    background: #eee url(/public/assets/prev.e36ac25f.png);
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s ease;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -20px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    margin: 15px;
+}
+
+
+.site-footer{
+position: relative;
+margin: 4rem 0 0;
+font-size: 1.3rem;
+background-color: black;
+color: #eee;
+display: -webkit-flex;
+display: flex;
+-webkit-justify-content: center;
+justify-content: center;
+
+}
+
+footer .inner{
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+width: 100%;
+display: flex;
+justify-content: space-between;
+text-align: right;
+max-width: 1253px;
+}
+
+
+.footer-information{
+    text-align: right;
+    font-size: 12px;
+    color: white;
+}
+
+.subscribe-sector{
+    border: 1px solid white;
+    height: fit-content;
+    width: 218px;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe-image{
+    background: #eee url(/public/assets/frog.d8ef8263.png);
+    display: block;
+    border: 1px solid grey;
+    height: 65px;
+    width: 50px;
+
+}
+
+.subscribe-text{
+    
+    font-family: Roboto Mono!important;
+    font: 400 23px/24px Roboto Mono;
+    text-decoration: none;
+    color: #eee;
+    display: block;
+    margin-right: 6px;
+    
+
+}
+
+.footer-rightsite-box{
+    font-family: Roboto Mono!important;
+    text-decoration: none;
+    color: #eee;
+    text-shadow: none;
+    margin-right: 40px;    
+}
+
+footer a{
+    text-decoration: none;
+    color: #eee;
+    text-decoration: underline;
+}
+
+.footer-nav-links{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    text-decoration: none;
+}
+
+.poweredby{
+    text-decoration: none;
+}
+
+.poweredby{
+    text-decoration: none;
+}
